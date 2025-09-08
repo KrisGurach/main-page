@@ -1,94 +1,50 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+      <header className={styles.header}>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+        <div className={styles.header__information}>
+          <div className={styles.header__wrapper}>
+            <img className={styles.header__logo} src="/logo.svg" alt="Logo" />
+            <p className={styles.header__text}>Профессиональные <span className={styles.header__span}>средства связи</span></p>
+          </div>
+
+          <div className={styles.header__wrapper}>
+            <div className={`${styles.header__container} ${styles.header__container_phone}`}>
+              <img src="/header__call.png" alt="Call" />
+              <p className={styles.header__text_bold}>+7 (727) 261 69 69</p>
+              <img src="/arrow_down.svg" alt="Drop down" />
+
+              {/* скрытый попап */}
+              <div className={styles.header__dropdown}>
+                <p>+7 (771) 719 88 05</p>
+                <p>+7 (771) 705 17 40</p>
+              </div>
+            </div>
+
+            <div className={styles.header__container}>
+              <img src="/header__price.png" alt="Price" />
+              <p className={styles.header__text_bold}>Прайс-лист</p>
+            </div>
+            <div className={styles.header__container}>
+              <img src="/header__work-time.png" alt="Work-time" />
+              <p>Пн-Пт с <span className={styles.header__text_green}>08:00 до 17:00</span></p>
+            </div>
+          </div>
         </div>
+
+        <div className={styles.header__navbar}>
+          <p>Catalog</p>
+        </div>
+      </header>
+
+      <main className={styles.main}>
+
       </main>
       <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+
       </footer>
     </div>
   );
