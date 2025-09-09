@@ -1,0 +1,115 @@
+.projects {
+  margin: auto;
+  margin-top: 125px;
+  max-width: 1316px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+.title {
+  color: var(--main-green-color);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.button {
+  width: 209px;
+  height: 48px;
+  border: 1px solid var(--button-grey-color);
+  border-radius: 6px;
+  color: var( --slider-text-color);
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* NewsCards.module.css */
+.cardsWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.imageWrapper {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  transition: opacity 0.3s ease;
+}
+
+.imageWrapper:hover .overlay {
+  opacity: 1;
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.buttonCard {
+  background: #2ecc71;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #27ae60;
+}
+
+.content {
+  padding: 12px;
+}
+
+.date {
+  font-size: 12px;
+  color: #888;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.titleCard {
+  font-size: 16px;
+  font-weight: 600;
+}

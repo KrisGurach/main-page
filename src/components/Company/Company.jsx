@@ -2,7 +2,7 @@
 import styles from "./Company.module.css";
 
 
-export default function Home() {
+export default function Company() {
 
     return (
         <section className={styles.company}>

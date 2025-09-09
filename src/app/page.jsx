@@ -5,6 +5,7 @@ import Slider from "../components/Slider/Slider";
 import SliderGoods from "../components/SliderGoods/SliderGoods";
 import News from "../components/News/News";
 import Company from "../components/Company/Company";
+import Projects from "../components/Projects/Projects"
 
 export default function Home() {
   const [isCatalogOpen, setIsCatalogOpen] = useState(false);
@@ -169,6 +170,7 @@ export default function Home() {
         <SliderGoods />
         <News />
         <Company />
+        <Projects />
       </main>
       <footer className={styles.footer}>
 
