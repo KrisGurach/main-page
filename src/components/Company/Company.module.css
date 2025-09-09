@@ -1,0 +1,47 @@
+.company {
+  display: flex;
+  flex-direction: row;
+  gap: 59px;
+  max-width: 1316px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.boldText {
+  font-weight: 700;
+}
+
+.button {
+  width: 205px;
+  height: 47px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+  color: var(--white-color);
+  background: linear-gradient(90deg, #4ABC05, #3B9A00);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.image {
+  width: 703px;
+  height: auto;
+}
