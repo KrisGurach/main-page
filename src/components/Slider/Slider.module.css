@@ -1,0 +1,79 @@
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slide {
+  position: relative;
+}
+
+.slide img {
+  width: 1316px;
+  height: 400px;
+  margin: auto;
+  margin-top: 27px;
+  border-radius: 12px;
+  display: block;
+}
+
+.slideContent {
+  position: absolute;
+  top: 69px;     
+  left: calc((100% - 1200px) / 2);    
+}
+
+.title {
+  max-width: 500px;
+  color: var(--slider-text-color);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.text {
+  color: var(--slider-text-color);
+  margin-top: 21px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.button {
+  width: 205px;
+  height: 47px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 77px;
+  padding: 10px;
+  color: var(--white-color);
+  background: linear-gradient(90deg, #4ABC05, #3B9A00);
+  font-size: 14px;
+  font-weight: 700;
+;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  gap: 8px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: var(--light-grey-color);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dot:hover {
+  background: #999;
+}
+
+.activeDot {
+  background: var(--main-green-color);
+}

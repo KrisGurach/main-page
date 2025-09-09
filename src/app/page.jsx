@@ -1,6 +1,7 @@
 "use client";
 import styles from "./page.module.css";
 import { useState } from "react";
+import Slider from "../components/Slider/Slider";
 
 export default function Home() {
   const [isCatalogOpen, setIsCatalogOpen] = useState(false);
@@ -161,7 +162,7 @@ export default function Home() {
       </header>
 
       <main className={styles.main}>
-
+        <Slider />
       </main>
       <footer className={styles.footer}>
 

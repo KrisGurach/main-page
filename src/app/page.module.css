@@ -4,7 +4,9 @@
   --dark-green-color: #005825;
   --white-color: #FFFFFF;
   --grey-color: #F4F4F4;
+  --light-grey-color: #D9D9D9;
   --blue-color: #002957;
+  --slider-text-color: #323B4A;
   font-family: var(--font-geist-sans);
 }
 
