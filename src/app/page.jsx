@@ -2,6 +2,7 @@
 import styles from "./page.module.css";
 import { useState } from "react";
 import Slider from "../components/Slider/Slider";
+import SliderGoods from "../components/SliderGoods/SliderGoods";
 
 export default function Home() {
   const [isCatalogOpen, setIsCatalogOpen] = useState(false);
@@ -163,6 +164,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Slider />
+        <SliderGoods />
       </main>
       <footer className={styles.footer}>
 
