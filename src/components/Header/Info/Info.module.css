@@ -1,0 +1,107 @@
+.headerInfo {
+  width: min(100% - 30px, 1320px);
+  min-height: 104px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoWrapper:last-child {
+  gap: 2.5rem;
+}
+
+.infoLogo {
+  margin-right: 19px;
+}
+
+.infoText {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  height: 100%;
+  min-height: 50px;
+  padding-left: 25px;
+  padding-top: 5px;
+  text-align: left;
+  text-transform: uppercase;
+  border-left: 2px solid var(--main-green-color);
+}
+
+.infoSpan {
+  display: block;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.infoContainerPhone {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.infoDropdown {
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 5px 30px;
+  display: none; 
+  z-index: 100;
+  white-space: nowrap; 
+}
+
+.infoDropdown p:hover {
+  color: var(--main-green-color);
+}
+
+.infoContainerPhone:hover .infoDropdown {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.infoContainerPhone .infoIcon {
+  transition: transform 0.2s ease;
+}
+
+.infoContainerPhone:hover .infoIcon {
+  transform: rotate(180deg);
+}
+
+.infoTextBold {
+  font-weight: 700;
+}
+
+.infoTextBold:hover {
+  color: var(--main-green-color);
+  cursor: pointer;
+}
+
+
+.infoTextGreen {
+  color: var(--main-green-color);
+  font-weight: 700;
+}
