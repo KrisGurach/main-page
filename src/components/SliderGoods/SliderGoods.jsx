@@ -7,7 +7,7 @@ const productsData = {
     {
       id: 1,
       label: "New",
-      img: "/products1.webp",
+      img: "./products1.webp",
       title: "Рация Hytera",
       desc: "Портативная цифровая рация",
       oldPrice: null,
@@ -16,7 +16,7 @@ const productsData = {
     {
       id: 2,
       label: "New",
-      img: "/products2.webp",
+      img: "./products2.webp",
       title: "Антенна Motorola",
       desc: "Антенна для рации",
       oldPrice: null,
@@ -25,7 +25,7 @@ const productsData = {
     {
       id: 3,
       label: "New",
-      img: "/products3.webp",
+      img: "./products3.webp",
       title: "Рация Kenwood",
       desc: "Автомобильная рация",
       oldPrice: null,
@@ -34,7 +34,7 @@ const productsData = {
     {
       id: 4,
       label: "New",
-      img: "/products1.webp",
+      img: "./products1.webp",
       title: "Гарнитура",
       desc: "Профессиональная гарнитура",
       oldPrice: null,
@@ -45,7 +45,7 @@ const productsData = {
     {
       id: 5,
       label: "Sale",
-      img: "/products2.webp",
+      img: "./products2.webp",
       title: "Рация Icom",
       desc: "Компактная рация",
       oldPrice: "70 000 ₸",
@@ -54,7 +54,7 @@ const productsData = {
     {
       id: 6,
       label: "Sale",
-      img: "/products3.webp",
+      img: "./products3.webp",
       title: "Батарея для рации",
       desc: "Запасная батарея",
       oldPrice: "15 000 ₸",
@@ -63,7 +63,7 @@ const productsData = {
     {
       id: 7,
       label: "Sale",
-      img: "/products1.webp",
+      img: "./products1.webp",
       title: "Рация Baofeng",
       desc: "Доступная рация",
       oldPrice: "18 000 ₸",

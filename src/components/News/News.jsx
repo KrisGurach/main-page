@@ -6,19 +6,19 @@ const newsData = {
   news: [
     {
       id: 1,
-      img: "/news1.webp",
+      img: "./news1.webp",
       date: "05.09.2025",
       title: "Запуск новой линейки раций",
     },
     {
       id: 2,
-      img: "/news2.webp",
+      img: "./news2.webp",
       date: "01.09.2025",
       title: "Обновление ПО для оборудования",
     },
     {
       id: 3,
-      img: "/news3.webp",
+      img: "./news3.webp",
       date: "28.08.2025",
       title: "Открытие нового филиала",
     },
@@ -26,19 +26,19 @@ const newsData = {
   events: [
     {
       id: 5,
-      img: "/event1.jpg",
+      img: "./event1.jpg",
       date: "15.09.2025",
       title: "Выставка связи 2025",
     },
     {
       id: 6,
-      img: "/event2.jpg",
+      img: "./event2.jpg",
       date: "10.09.2025",
       title: "Семинар по радиосвязи",
     },
     {
       id: 7,
-      img: "/event3.jpg",
+      img: "./event3.jpg",
       date: "05.08.2025",
       title: "Обучение для партнеров",
     },

@@ -15,7 +15,7 @@ export default function Navbar() {
                         onClick={() => setIsCatalogOpen(!isCatalogOpen)}
                     >
                         <p className={styles.navbarCatalogText}>Каталог товаров</p>
-                        <img className={styles.navbarBurger} src="/burger-menu.svg" alt="Кнопка меню" />
+                        <img className={styles.navbarBurger} src="./burger-menu.svg" alt="Кнопка меню" />
                     </button>
 
                     {isCatalogOpen && (
@@ -53,7 +53,7 @@ export default function Navbar() {
 
                             <div className={styles.catalogImageContainer}>
                                 <a href="#">
-                                    <img className={styles.catalogImage} src="/SHytera.png" alt="Спецпредложение" />
+                                    <img className={styles.catalogImage} src="./SHytera.png" alt="Спецпредложение" />
                                 </a>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ export default function Navbar() {
                         <li className={styles.hasDropdown}>
                             <div className={styles.dropdownLabel}>
                                 <p className={styles.dropdownText}>Услуги</p>
-                                <img src="/arrow-white-down.png" alt="Меню разделов" className={styles.dropdownIcon} />
+                                <img src="./arrow-white-down.png" alt="Меню разделов" className={styles.dropdownIcon} />
                             </div>
                             <ul className={styles.dropdown}>
                                 <li className={styles.dropdownList}><a href="#">Системы и сети связи</a></li>
@@ -86,7 +86,7 @@ export default function Navbar() {
                         <li className={styles.hasDropdown}>
                             <div className={styles.dropdownLabel}>
                                 <p className={styles.dropdownText}>Информация</p>
-                                <img src="/arrow-white-down.png" alt="Меню разделов" className={styles.dropdownIcon} />
+                                <img src="./arrow-white-down.png" alt="Меню разделов" className={styles.dropdownIcon} />
                             </div>
                             <ul className={styles.dropdown}>
                                 <li className={styles.dropdownList}><a href="/info1">FAQ (Часто задаваемые вопросы)</a></li>
@@ -99,7 +99,7 @@ export default function Navbar() {
                         <li className={styles.hasDropdown}>
                             <div className={styles.dropdownLabel}>
                                 <p className={styles.dropdownText}>О компании</p>
-                                <img src="/arrow-white-down.png" alt="Меню разделов" className={styles.dropdownIcon} />
+                                <img src="./arrow-white-down.png" alt="Меню разделов" className={styles.dropdownIcon} />
                             </div>
                             <ul className={styles.dropdown}>
                                 <li className={styles.dropdownList}><a href="/about">Проекты</a></li>

@@ -3,9 +3,9 @@ import { useState } from "react";
 import styles from "./Slider.module.css";
 
 const slides = [
-  { id: 1, img: "/slider4.webp", alt: "Слайд 1", title:"Металлодетекторы арочные", text:"От ведущих производителей" },
-  { id: 2, img: "/slider2.webp", alt: "Слайд 2", title:"Большой выбор радиостанций", text:"От ведущих производителей" },
-  { id: 3, img: "/slider3.webp", alt: "Слайд 3", title:"Средства защиты информации", text:"Собственное производство" },
+  { id: 1, img: "./slider4.webp", alt: "Слайд 1", title:"Металлодетекторы арочные", text:"От ведущих производителей" },
+  { id: 2, img: "./slider2.webp", alt: "Слайд 2", title:"Большой выбор радиостанций", text:"От ведущих производителей" },
+  { id: 3, img: "./slider3.webp", alt: "Слайд 3", title:"Средства защиты информации", text:"Собственное производство" },
 ];
 
 export default function Slider() {

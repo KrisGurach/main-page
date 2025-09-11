@@ -32,7 +32,7 @@ export default function Company() {
 
                 <button className={styles.button}>Подробнее</button>
             </div>
-            <img className={styles.image} src="/map.png" alt="Map of shops" />
+            <img className={styles.image} src="./map.png" alt="Map of shops" />
         </section>
     )
 };
