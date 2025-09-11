@@ -125,7 +125,7 @@ export default function Home() {
       </div>
 
       <div className={styles.tabContent}>
-        <img className={styles.image} src="/image.png" />
+        <img className={styles.image} src="./image.png" />
         <div>
           {tabs.find((tab) => tab.id === activeTab)?.content}
           <button className={styles.button}>Подробнее</button>
