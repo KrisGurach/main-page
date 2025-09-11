@@ -7,7 +7,7 @@ export default function Home() {
         {
             id: "pro",
             label: "Профессионалы своего дела",
-            icon: "/icons/pro.svg",
+            icon: "./icons/pro.svg",
             content: (
                 <>
                     <p className={styles.subtitile}>Профессионалы своего дела</p>
@@ -28,7 +28,7 @@ export default function Home() {
         {
             id: "dist",
             label: "Официальный дистрибьютор",
-            icon: "/icons/dist.svg",
+            icon: "./icons/dist.svg",
             content: (
                 <>
                     <p className={styles.subtitile}>Официальный дистрибьютор</p>
@@ -46,7 +46,7 @@ export default function Home() {
         {
             id: "conf",
             label: "Конфиденциальность",
-            icon: "/icons/conf.svg",
+            icon: "./icons/conf.svg",
             content: (
                 <>
                     <p className={styles.subtitile}>Конфиденциальность</p>
@@ -63,7 +63,7 @@ export default function Home() {
         {
             id: "servis",
             label: "Сервисный центр",
-            icon: "/icons/servis.svg",
+            icon: "./icons/servis.svg",
             content: (
                 <>
                     <p className={styles.subtitile}>Сервисный центр</p>
@@ -81,7 +81,7 @@ export default function Home() {
         {
             id: "proiz",
             label: "Собственное производство",
-            icon: "/icons/proizv.svg",
+            icon: "./icons/proizv.svg",
             content: (
                 <>
                     <p className={styles.subtitile}>Собственное производство</p>
