@@ -21,9 +21,10 @@
   width: 248px;
   height: 155px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 12px;
   flex: 1;
   padding: 12px;
   border-radius: 6px;
@@ -38,6 +39,7 @@
 
 .tabButton:hover {
   background: var(--light-grey-color); 
+  color: var(--slider-text-color);
 }
 
 .active {
@@ -47,24 +49,63 @@
 
 .tabContent {
   margin-bottom: 115px;
-  padding: 16px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  background: #fff;
-  font-size: 16px;
-  line-height: 1.5;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
 }
 
 .icon {
-  width: 20px;
-  height: 20px;
+  width: 58px;
+  height: 58px;
   transition: filter 0.2s ease, fill 0.2s ease;
 }
 
+/* Чёрная (по умолчанию) */
 .iconInactive {
-  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%);
+  filter: brightness(0) invert(0);
 }
 
+/* При ховере неактивная становится черной */
+.active:hover .iconActive {
+  filter: brightness(0) invert(0);
+}
+
+/* Активная всегда белая */
 .iconActive {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(100%);
+  filter: brightness(0) invert(1);
+}
+
+.image {
+  width: 648px;
+  height: 348px;
+  border-radius: 6px;
+  background-size: contain;
+}
+
+.subtitile {
+  margin-bottom: 30px;
+  color: var(--slider-text-color);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.text {
+  margin-bottom: 16px;
+  color: var(--slider-text-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button {
+  width: 205px;
+  height: 47px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+  color: var(--white-color);
+  background: linear-gradient(90deg, #4ABC05, #3B9A00);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
 }
