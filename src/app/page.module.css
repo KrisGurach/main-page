@@ -9,6 +9,7 @@
   --blue-color: #002957;
   --slider-text-color: #323B4A;
   font-family: var(--font-geist-sans);
+  background-color: var(--button-grey-color);
 }
 
 .header {
