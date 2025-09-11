@@ -8,7 +8,8 @@ import Projects from "../components/Projects/Projects";
 import Info from "../components/Header/Info/Info";
 import Navbar from "../components/Header/Navbar/Navbar";
 import AboutCompany from "../components/AboutCompany/AboutCompany";
-import SliderParthners from "../components/SliderParthners/SliderParthners"
+import SliderParthners from "../components/SliderParthners/SliderParthners";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   
@@ -30,7 +31,7 @@ export default function Home() {
       </main>
       
       <footer className={styles.footer}>
-
+        <Footer />
       </footer>
     </div>
   );

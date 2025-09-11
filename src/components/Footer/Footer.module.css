@@ -1,0 +1,44 @@
+.footerGrid {
+  display: grid;
+  grid-template-columns: 2fr 3fr; /* слева меню, справа карта */
+  gap: 40px;
+  width: 1316px;
+  margin: auto;
+}
+
+.footerLeft {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* каталог и услуги рядом */
+  grid-template-rows: auto auto auto auto;
+  gap: 20px;
+}
+
+.footerLogo {
+  grid-column: 1 / 3; /* картинка сверху на всю ширину */
+}
+
+.footerContacts {
+  grid-column: 1 / 3; /* контакты внизу на всю ширину */
+}
+
+.footerSection h4 {
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+.footerSection ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footerSection ul li {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.footerRight iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}

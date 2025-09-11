@@ -6,6 +6,7 @@
   --grey-color: #F4F4F4;
   --button-grey-color: #ECECEC;
   --light-grey-color: #D9D9D9;
+  --footer-color: #373737;
   --blue-color: #002957;
   --slider-text-color: #323B4A;
   font-family: var(--font-geist-sans);
@@ -18,6 +19,12 @@
   margin-left: auto;
   display: flex;
   flex-direction: column;
+}
+
+.footer {
+  background: var(--footer-color);
+  color: var(--grey-color);
+  padding: 40px;
 }
 
 
