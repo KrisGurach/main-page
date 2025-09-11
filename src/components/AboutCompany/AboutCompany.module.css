@@ -109,3 +109,7 @@
   font-weight: 700;
   cursor: pointer;
 }
+
+.button:hover {
+  background: linear-gradient(90deg, #3b9a00, #4abc05);
+}

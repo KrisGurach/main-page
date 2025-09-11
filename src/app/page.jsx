@@ -7,7 +7,8 @@ import Company from "../components/Company/Company";
 import Projects from "../components/Projects/Projects";
 import Info from "../components/Header/Info/Info";
 import Navbar from "../components/Header/Navbar/Navbar";
-import AboutCompany from "../components/AboutCompany/AboutCompany"
+import AboutCompany from "../components/AboutCompany/AboutCompany";
+import SliderParthners from "../components/SliderParthners/SliderParthners"
 
 export default function Home() {
   
@@ -25,6 +26,7 @@ export default function Home() {
         <Company />
         <Projects />
         <AboutCompany />
+        <SliderParthners />
       </main>
       
       <footer className={styles.footer}>

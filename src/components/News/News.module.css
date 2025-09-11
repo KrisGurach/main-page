@@ -21,8 +21,12 @@
 }
 
 .activeTab {
-  background: #4abc05;
+  background: linear-gradient(90deg, #4ABC05, #3B9A00);
   color: white;
+}
+
+.activeTab:hover {
+  background: linear-gradient(90deg, #3b9a00, #4abc05);
 }
 
 .cards {
