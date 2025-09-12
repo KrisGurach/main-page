@@ -1,0 +1,32 @@
+.footerRight {
+  max-width: 520px;
+}
+
+.mapTabs {
+  margin-bottom: 12px;
+}
+
+.mapBtn {
+  margin-right: 6px;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.mapBtn:hover {
+  background: #eaeaea;
+}
+
+.active {
+  background: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+.mapContainer iframe {
+  width: 628px;
+  height: 370px;
+  border-radius: 8px;
+}
